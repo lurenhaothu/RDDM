@@ -6,7 +6,7 @@ from src.residual_denoising_diffusion_pytorch import (ResidualDiffusion,
                                                       Trainer, Unet, UnetRes,
                                                       set_seed)
 
-# init
+# init change
 os.environ['CUDA_VISIBLE_DEVICES'] = ','.join(str(e) for e in [0])
 sys.stdout.flush()
 set_seed(10)
