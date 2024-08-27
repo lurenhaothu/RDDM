@@ -1,1 +1,5 @@
 results/
+celeba/
+venv/
+.idea/
+*.pyc

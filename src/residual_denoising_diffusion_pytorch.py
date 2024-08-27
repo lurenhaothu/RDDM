@@ -1585,7 +1585,7 @@ class Trainer(object):
                             gen_img = './results/test_timestep_10_' + \
                                 str(milestone)+"_pt"
                             self.set_results_folder(gen_img)
-                            self.test(last=True, FID=True)
+                            self.test(last=True, FID=False)
                             os.system(
                                 "python fid_and_inception_score.py "+gen_img)
                             self.set_results_folder(results_folder)

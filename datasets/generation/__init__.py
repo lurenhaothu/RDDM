@@ -6,7 +6,7 @@ import torch
 import torchvision.transforms as transforms
 import torchvision.transforms.functional as F
 from datasets.generation.celeba import CelebA
-from datasets.generation.ffhq import FFHQ
+# from datasets.generation.ffhq import FFHQ
 from datasets.generation.lsun import LSUN
 from torch.utils.data import Subset
 from torchvision.datasets import CIFAR10
